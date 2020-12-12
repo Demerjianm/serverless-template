@@ -22,9 +22,7 @@
   },
   "scripts": {
     "test": "jest",
-    "pickup-notification": "node src/services/pickup-notification/index.js",
-    "auto-run": "node src/services/autorun-payroll/index.js",
-    "processEmails": "node src/services/processDate-notification/index.js"
+    "example": "node src/services/index.js"
   },
   "jest": {
     "verbose": false,
